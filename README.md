@@ -1,6 +1,9 @@
 # MultiBLiMP
 
-Catherine Arnett's modified implementation of [Jumelet et al. (2025) MultiBLiMP 1.0](https://arxiv.org/abs/2504.02768). Any bugs or errors are my own. 
+Suchir Salhan's modified version of Catherine Arnett's implementation of [Jumelet et al. (2025) MultiBLiMP 1.0](https://arxiv.org/abs/2504.02768). Any bugs or errors are my own. 
+
+To run 
+Modified version in `get_multiblimp_scores.py` 
 
 The updates include:
 * documentation on how to integrate the Hugging Face datasets into the pipeline
@@ -8,7 +11,7 @@ The updates include:
 * example code for running multiblimp
 * handling of model checkpoints
 
-## Setup
+## Setup – how to run an evaluation of a model checkpoint at a specific value.
 
 You will need `minicons` installed. 
 
