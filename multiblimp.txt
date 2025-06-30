@@ -44,7 +44,7 @@ catherinearnett/B-GPT_nl_en_simultaneous,90000,nld,eng,simultaneous,0.9738309738
 catherinearnett/B-GPT_nl_en_simultaneous,100000,nld,eng,simultaneous,0.972972972972973,0.9454545454545454
 catherinearnett/B-GPT_nl_en_simultaneous,110000,nld,eng,simultaneous,0.972972972972973,0.9428571428571428
 catherinearnett/B-GPT_nl_en_simultaneous,120000,nld,eng,simultaneous,0.9725439725439725,0.9506493506493506
-catherinearnett/B-GPT_nl_en_simultaneous,128000,nld,eng,simultaneous,0.9755469755469756,0.948051948051948\
+catherinearnett/B-GPT_nl_en_simultaneous,128000,nld,eng,simultaneous,0.9755469755469756,0.948051948051948
 model,checkpoint,l1,l2,biling_cond,l1_acc,l2_acc
 catherinearnett/B-GPT_en_nl_sequential,0,eng,nld,sequential,0.6298701298701299,0.5980265980265981
 catherinearnett/B-GPT_en_nl_sequential,10000,eng,nld,sequential,0.922077922077922,0.4774774774774775
@@ -85,7 +85,7 @@ catherinearnett/B-GPT_en_nl_sequential,90000,eng,nld,sequential,0.84285714285714
 catherinearnett/B-GPT_en_nl_sequential,100000,eng,nld,sequential,0.8519480519480519,0.9682539682539683
 catherinearnett/B-GPT_en_nl_sequential,110000,eng,nld,sequential,0.8415584415584415,0.96996996996997
 catherinearnett/B-GPT_en_nl_sequential,120000,eng,nld,sequential,0.8441558441558441,0.9708279708279708
-catherinearnett/B-GPT_en_nl_sequential,128000,eng,nld,sequential,0.8428571428571429,0.9708279708279708\
+catherinearnett/B-GPT_en_nl_sequential,128000,eng,nld,sequential,0.8428571428571429,0.9708279708279708
 model,checkpoint,l1,l2,biling_cond,l1_acc,l2_acc
 catherinearnett/B-GPT_nl_en_sequential,10000,nld,eng,sequential,0.9382239382239382,0.6779220779220779
 catherinearnett/B-GPT_nl_en_sequential,20000,nld,eng,sequential,0.963963963963964,0.6714285714285714
@@ -131,7 +131,7 @@ catherinearnett/B-GPT_nl_en_sequential,90000,nld,eng,sequential,0.74088374088374
 catherinearnett/B-GPT_nl_en_sequential,100000,nld,eng,sequential,0.7408837408837409,0.9636363636363636
 catherinearnett/B-GPT_nl_en_sequential,110000,nld,eng,sequential,0.7125697125697126,0.961038961038961
 catherinearnett/B-GPT_nl_en_sequential,120000,nld,eng,sequential,0.7164307164307164,0.9623376623376624
-catherinearnett/B-GPT_nl_en_sequential,128000,nld,eng,sequential,0.7202917202917203,0.9623376623376624\
+catherinearnett/B-GPT_nl_en_sequential,128000,nld,eng,sequential,0.7202917202917203,0.9623376623376624
 model,checkpoint,l1,l2,biling_cond,l1_acc,l2_acc
 catherinearnett/B-GPT_en_es_simultaneous,0,eng,spa,simultaneous,0.6506493506493507,0.6402990948445494
 catherinearnett/B-GPT_en_es_simultaneous,10000,eng,spa,simultaneous,0.9194805194805195,0.6875245966155057
@@ -178,7 +178,7 @@ catherinearnett/B-GPT_en_es_simultaneous,90000,eng,spa,simultaneous,0.9714285714
 catherinearnett/B-GPT_en_es_simultaneous,100000,eng,spa,simultaneous,0.9701298701298702,0.9354584809130264
 catherinearnett/B-GPT_en_es_simultaneous,110000,eng,spa,simultaneous,0.9714285714285714,0.9342778433687524
 catherinearnett/B-GPT_en_es_simultaneous,120000,eng,spa,simultaneous,0.9701298701298702,0.9397874852420307
-catherinearnett/B-GPT_en_es_simultaneous,128000,eng,spa,simultaneous,0.9701298701298702,0.9366391184573003\
+catherinearnett/B-GPT_en_es_simultaneous,128000,eng,spa,simultaneous,0.9701298701298702,0.9366391184573003
 model,checkpoint,l1,l2,biling_cond,l1_acc,l2_acc
 catherinearnett/B-GPT_es_en_simultaneous,0,spa,eng,simultaneous,0.6725698543880362,0.6818181818181818
 catherinearnett/B-GPT_es_en_simultaneous,10000,spa,eng,simultaneous,0.9149940968122786,0.7090909090909091
@@ -225,9 +225,8 @@ catherinearnett/B-GPT_es_en_simultaneous,90000,spa,eng,simultaneous,0.9539551357
 catherinearnett/B-GPT_es_en_simultaneous,100000,spa,eng,simultaneous,0.957103502558048,0.951948051948052
 catherinearnett/B-GPT_es_en_simultaneous,110000,spa,eng,simultaneous,0.9578905942542306,0.9493506493506494
 catherinearnett/B-GPT_es_en_simultaneous,120000,spa,eng,simultaneous,0.957103502558048,0.9532467532467532
-catherinearnett/B-GPT_es_en_simultaneous,128000,spa,eng,simultaneous,0.9594647776465959,0.9545454545454546\
-\pard\pardeftab720\partightenfactor0
-\cf2 model,checkpoint,l1,l2,biling_cond,l1_acc,l2_acc
+catherinearnett/B-GPT_es_en_simultaneous,128000,spa,eng,simultaneous,0.9594647776465959,0.9545454545454546
+model,checkpoint,l1,l2,biling_cond,l1_acc,l2_acc
 catherinearnett/B-GPT_en_es_sequential,0,eng,spa,sequential,0.6285714285714286,0.6249508067689886
 catherinearnett/B-GPT_en_es_sequential,10000,eng,spa,sequential,0.9194805194805195,0.706021251475797
 catherinearnett/B-GPT_en_es_sequential,20000,eng,spa,sequential,0.9454545454545454,0.706021251475797
@@ -460,7 +459,6 @@ catherinearnett/B-GPT_en_el_simultaneous,100000,eng,ell,simultaneous,0.968831168
 catherinearnett/B-GPT_en_el_simultaneous,110000,eng,ell,simultaneous,0.9675324675324676,0.968978102189781
 catherinearnett/B-GPT_en_el_simultaneous,120000,eng,ell,simultaneous,0.9662337662337662,0.9698905109489051
 catherinearnett/B-GPT_en_el_simultaneous,128000,eng,ell,simultaneous,0.9688311688311688,0.9726277372262774
-\
 model,checkpoint,l1,l2,biling_cond,l1_acc,l2_acc
 catherinearnett/B-GPT_el_en_sequential,10000,ell,eng,sequential,0.9461678832116789,0.6285714285714286
 catherinearnett/B-GPT_el_en_sequential,20000,ell,eng,sequential,0.9698905109489051,0.6077922077922078
