@@ -6,7 +6,7 @@ def score_tse(model, fn: str):
     tse_df["sen_prob"] = pd.Series(dtype=object)
     tse_df["wrong_prob"] = pd.Series(dtype=object)
 
-    max_length = 512  # default context window; safe for GPT-style models
+    max_length = 512  # safe limit for GPT2
 
     for idx, row in tse_df.iterrows():
         try:
@@ -22,7 +22,7 @@ def score_tse(model, fn: str):
             tse_df.loc[idx, "delta"] = wrong_nll - sen_nll
 
         except Exception as e:
-            print(f"Error scoring row {idx}: {e}")
+            print(f"⚠️ Error scoring row {idx}: {e}")
             tse_df.at[idx, "sen_prob"] = None
             tse_df.at[idx, "wrong_prob"] = None
             tse_df.loc[idx, "sen_nll"] = None
@@ -33,11 +33,20 @@ def score_tse(model, fn: str):
 
 
 def score_pair(ilm_model, sen, wrong_sen, max_length=512):
-    stimuli = [sen, wrong_sen]
+    tokenizer = ilm_model.tokenizer
 
-    return ilm_model.sequence_score(
-        stimuli,
-        reduction=lambda x: x,
-        truncation=True,
-        max_length=max_length
-    )
+    # Tokenize and truncate both sentences
+    sen_tokens = tokenizer.tokenize(sen)
+    wrong_tokens = tokenizer.tokenize(wrong_sen)
+
+    if len(sen_tokens) > max_length:
+        sen_tokens = sen_tokens[:max_length]
+        sen = tokenizer.convert_tokens_to_string(sen_tokens)
+
+    if len(wrong_tokens) > max_length:
+        wrong_tokens = wrong_tokens[:max_length]
+        wrong_sen = tokenizer.convert_tokens_to_string(wrong_tokens)
+
+    # Score both inputs without reduction
+    stimuli = [sen, wrong_sen]
+    return ilm_model.sequence_score(stimuli, reduction=lambda x: x)
