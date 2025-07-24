@@ -1,7 +1,6 @@
 import sys
 import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../src/lm_eval")))
-import sys
 import argparse
 from glob import glob
 import torch  
