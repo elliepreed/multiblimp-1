@@ -13,7 +13,7 @@ src_path = os.path.join(project_root, "multiblimp", "src", "lm_eval")
 sys.path.append(scripts_path)
 sys.path.append(src_path)
 
-from load_model import load_hf_model
+from src.lm_eval.load_model import load_hf_model
 from score import score_tse
 
 # Check if CUDA is available and print status
