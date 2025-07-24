@@ -7,8 +7,8 @@ import torch
 # Dynamically set project root and source paths
 current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.abspath(os.path.join(current_dir, "../../../"))
-scripts_path = os.path.join(project_root, "multiblimp", "scripts", "lm_eval")
-src_path = os.path.join(project_root, "multiblimp", "src", "lm_eval")
+scripts_path = os.path.join(project_root, "multiblimp-1", "scripts", "lm_eval")
+src_path = os.path.join(project_root, "multiblimp-1", "src", "lm_eval")
 
 sys.path.append(scripts_path)
 sys.path.append(src_path)
