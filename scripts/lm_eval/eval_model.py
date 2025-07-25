@@ -70,7 +70,7 @@ for fn in sorted(pair_files):
         print(f"No data returned for: {fn}")
         continue
 
-    print(f"{phenomenon} | {lang} | {condition_name} → Score: {(df.sen_nll < df.wrong_nll).mean():.3f}")
+    print(f"{phenomenon} | {lang} | {condition_name} → Score: {(df.sentence_good_nll < df.sentence_wrong_nll).mean():.3f}")
 
     results_dir = args.results_dir or os.path.join("model_results", args.model_name)
     os.makedirs(results_dir, exist_ok=True)
